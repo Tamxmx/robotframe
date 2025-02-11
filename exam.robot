@@ -27,6 +27,6 @@ Check Translate Result
     Wait Until Page Contains Element    //*[@id="sale_image"]    timeout=10s
     INPUT NAME    ${NAME}
     CLICK SEARCH
-
+    Wait Until Page Contains    text=Searched Products
     
     
