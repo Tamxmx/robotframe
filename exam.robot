@@ -28,5 +28,6 @@ Check Translate Result
     INPUT NAME    ${NAME}
     CLICK SEARCH
     Wait Until Page Contains    text=Searched Products
+    Wait Until Page Contains    text=View Product
     
     
