@@ -22,6 +22,7 @@ CLICK PRODUCT
 
 *** Test Cases ***
 Check Translate Result
+    Maximize Browser Window    
     Wait Until Page Contains Element    //*[@id="header"]/div/div/div/div[2]/div/ul/li[1]/a    timeout=10s
     CLICK PRODUCT
     Wait Until Page Contains Element    //*[@id="sale_image"]    timeout=10s
